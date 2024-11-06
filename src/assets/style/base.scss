@@ -1,0 +1,60 @@
+@import "@/assets/style/handle.scss";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: JB-Medium, PingFang-l;
+}
+
+html::-webkit-scrollbar {
+	width: 6px;
+	transition: 0.3s;
+}
+// 滚动条轨道
+html::-webkit-scrollbar-track {
+	display: none;
+}
+// 滚动条滑块
+html::-webkit-scrollbar-thumb {
+	background-color: #DDDEE0;
+	border-radius: 2px;
+}
+// 滚动条滑块悬停
+html::-webkit-scrollbar-thumb:hover {
+	background: #C7C9CC;
+	border-radius: 2px;
+}
+// 滚动条滑块按下
+html::-webkit-scrollbar-thumb:active {
+	background: #C7C9CC;
+	border-radius: 2px;
+}
+
+code {
+	margin: 0 4px;
+	padding: 1px 4px;
+	border-radius: 4px;
+	background-color: rgba($color: $themeColor, $alpha: 0.5);
+	font-size: 0.9rem;
+}
+
+@font-face {
+	font-family: JB-Medium;
+	src: url("@/assets/typeface/JetBrainsMono-Medium.woff2");
+	font-display: swap;
+}
+@font-face {
+	font-family: PingFang-l;
+	src: url("@/assets/typeface/PingFang-l.otf");
+	font-display: swap;
+}
+@font-face {
+	font-family: PingFang-m;
+	src: url("@/assets/typeface/PingFang-m.otf");
+	font-display: swap;
+}
+@font-face {
+	font-family: pointfree;
+	src: url("@/assets/typeface/pointfree.ttf");
+	font-display: swap;
+}
